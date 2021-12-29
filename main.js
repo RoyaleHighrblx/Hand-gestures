@@ -57,15 +57,15 @@ function gotResult(){
         {
         document.getElementById("update_gesture").innerHTML = "&#128078; - That's bad";
         }
-        if(results[0].label == "peace")
+        if(results[1].label == "peace")
         {
         document.getElementById("update_gesture_2").innerHTML = "&#9996; - Well that was easy";
         }
-        if(results[0].label == "thumbs up")
+        if(results[1].label == "thumbs up")
         {
         document.getElementById("update_gesture_2").innerHTML = "&#128077; - That's good";
         }
-        if(results[0].label == "thumbs down")
+        if(results[1].label == "thumbs down")
         {
         document.getElementById("update_gesture_2").innerHTML = "&#128078; - That's bad";
         }
