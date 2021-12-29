@@ -34,7 +34,7 @@ function Check(){
     classifier.classify(img, gotResult);
 }
 
-function gotResult(){
+function gotResult(error, results){
     if (error) {
         console.error(error);
     } else {
